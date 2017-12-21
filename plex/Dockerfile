@@ -1,4 +1,4 @@
-FROM plexinc/pms-docker:latest
+FROM linuxserver/plex:latest
 LABEL org.freenas.interactive="false" 		\
       org.freenas.version="Latest (Auto Update)"		\
       org.freenas.upgradeable="true"		\
@@ -24,6 +24,11 @@ LABEL org.freenas.interactive="false" 		\
           }							\
       ]"							\
       org.freenas.settings="[ 					\
+          {							\
+              \"env\": \"VERSION\",					\
+              \"descr\": \"latest\",		\
+              \"optional\": true				\
+          },	
           {							\
               \"env\": \"TZ\",					\
               \"descr\": \"Plex container Timezone\",		\
