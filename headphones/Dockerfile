@@ -32,5 +32,15 @@ LABEL org.freenas.interactive="false" \
               \"descr\": \"Timezone - eg Europe/London\",		\
               \"optional\": true					\
           }								\
+          {								\
+              \"env\": \"PGID\",						\
+              \"descr\": \"1001\",		\
+              \"optional\": true					\
+          }								\
+          {								\
+              \"env\": \"PUID\",						\
+              \"descr\": \"1001\",		\
+              \"optional\": true					\
+          }								\
       ]"
 
