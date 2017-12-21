@@ -25,17 +25,12 @@ LABEL org.freenas.interactive="false" 		\
       ]"							\
       org.freenas.settings="[ 					\
           {							\
-              \"env\": \"VERSION\",					\
-              \"descr\": \"latest\",		\
-              \"optional\": true				\
-          },	
-          {							\
               \"env\": \"TZ\",					\
               \"descr\": \"Plex container Timezone\",		\
               \"optional\": true				\
           },							\
           {							\
-              \"env\": \"ADVERTISE_IP\",			\
+              \"env\": \"ADVERTISE_IP\",			      \
               \"descr\": \"http://<hostIPAddress>:32400/\",	\
               \"optional\": true				\
           },							\
